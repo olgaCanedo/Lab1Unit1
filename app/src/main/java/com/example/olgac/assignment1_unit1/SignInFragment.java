@@ -36,7 +36,7 @@ public class SignInFragment extends DialogFragment {
                     public void onClick(DialogInterface dialog, int id) {
                         // sign in the user ...
                         final EditText showPass = (EditText) getDialog().findViewById(R.id.password);
-                        if (showPass.getText().toString().equals("android")) {
+                        if (showPass.getText().toString().equals("hardcoded")) {
                             // Create an Intent to start the second activity
                             Intent intent = new Intent(getContext(), HomeActivity.class);
                             // Start the new activity.
